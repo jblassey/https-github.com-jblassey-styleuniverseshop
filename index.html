@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <title>Style Universe Ghana | Find Your Style. Find Your Fit.</title>
+    <meta
+      name="description"
+      content="Style Universe is a men's fashion destination in Ghana offering quality shoes and clothing with a focus on style, fit and hard-to-find sizes."
+    />
+    <meta name="theme-color" content="#0A0A0A" />
+    <link rel="canonical" href="https://styleuniverse.gh/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Style Universe" />
+    <meta property="og:title" content="Style Universe Ghana | Find Your Style. Find Your Fit." />
+    <meta
+      property="og:description"
+      content="Quality men's shoes and clothing in Ghana, with a focus on style, fit and hard-to-find sizes."
+    />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:url" content="https://styleuniverse.gh/" />
+    <meta property="og:locale" content="en_GH" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Style Universe Ghana | Find Your Style. Find Your Fit." />
+    <meta
+      name="twitter:description"
+      content="Quality men's shoes and clothing in Ghana, with a focus on style, fit and hard-to-find sizes."
+    />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <!-- Fonts: Archivo (body/UI) + Archivo Expanded (display headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Expanded:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--
+      Sitewide structured data (Organization + WebSite). Static here
+      since it's identical on every page — page-specific structured
+      data (Product, BreadcrumbList) is added dynamically per-page by
+      src/components/SEO.jsx. Keep the URLs below in sync with
+      src/config/site.js if brand/social details change.
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Style Universe",
+        "url": "https://styleuniverse.gh",
+        "logo": "https://styleuniverse.gh/favicon.svg",
+        "sameAs": [
+          "https://instagram.com/styleuniverseghana",
+          "https://tiktok.com/@styleuniverseghana",
+          "https://facebook.com/styleuniverseghana"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Style Universe",
+        "url": "https://styleuniverse.gh",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://styleuniverse.gh/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-white text-black antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
