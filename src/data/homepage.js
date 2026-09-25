@@ -32,7 +32,7 @@ export const categories = [
     copy: 'Built for everyday expression.',
     ctaLabel: 'Shop Clothing',
     to: '/shop?category=clothing',
-    imageLabel: 'Clothing',
+    imageLabel: '/images/pants.webp',
   },
   {
     id: 'big-tall',
