@@ -23,9 +23,9 @@ export const categories = [
     copy: 'Step into your next look.',
     ctaLabel: 'Shop Shoes',
     to: '/shop?category=shoes',
-    imageLabel: 'Shoes',
+    imageLabel: '/images/jordan 3 brown.webp
   },
-  {jordan 1 brown
+  {
     id: 'clothing',
     title: 'Clothing',
     copy: 'Built for everyday expression.',
