@@ -18,13 +18,14 @@ export const hero = {
 
 export const categories = [
   {
-    id: 'shoes',
-    title: 'Shoes',
-    copy: 'Step into your next look.',
-    ctaLabel: 'Shop Shoes',
-    to: '/shop?category=shoes',
-    imageLabel: 'jordan 3 brown.webp', 
-  },
+  id: 'shoes',
+  title: 'Shoes',
+  copy: 'Step into your next look.',
+  ctaLabel: 'Shop Shoes',
+  to: '/shop?category=shoes',
+  imageLabel: 'Jordan 3 Brown',
+  image: '/images/jordan 3 brown.webp',
+},
   {
     id: 'clothing',
     title: 'Clothing',
