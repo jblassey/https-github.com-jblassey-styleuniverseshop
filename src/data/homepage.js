@@ -25,7 +25,7 @@ export const categories = [
     to: '/shop?category=shoes',
     imageLabel: 'Shoes',
   },
-  {
+  {jordan 1 brown
     id: 'clothing',
     title: 'Clothing',
     copy: 'Built for everyday expression.',
