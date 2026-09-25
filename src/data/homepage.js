@@ -23,7 +23,7 @@ export const categories = [
     copy: 'Step into your next look.',
     ctaLabel: 'Shop Shoes',
     to: '/shop?category=shoes',
-    imageLabel: 'jordan 3 brown.webp
+    imageLabel: 'jordan 3 brown.webp',
   },
   {
     id: 'clothing',
