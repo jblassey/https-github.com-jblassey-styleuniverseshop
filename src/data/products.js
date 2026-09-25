@@ -66,7 +66,7 @@ export const products = [
     subcategory: 'Runners',
     price: 650,
     compareAtPrice: null,
-    images: ['Apex Runner — Front', 'Apex Runner — Side', 'Apex Runner — Sole Detail'],
+    images:["/images/photo_2026-04-12_22-36-22 (2).jpg"] ,
     thumbnail: 'Apex Runner — Front',
     colors: [
       { name: 'Off-White', hex: '#F5F3EE' },
