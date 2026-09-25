@@ -48,7 +48,7 @@ export const categories = [
     copy: 'Fresh pieces have entered the Universe.',
     ctaLabel: 'Shop New Arrivals',
     to: '/shop?collection=new-arrivals',
-    imageLabel: '/images/asics-silver.webp'
+    imageLabel: '/images/asics silver.webp'
   },
 ];
 
