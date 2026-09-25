@@ -14,10 +14,11 @@ export default function CategoryGrid() {
           {categories.map((cat, i) => (
             <Reveal key={cat.id} delay={i * 60}>
               <Link to={cat.to} className="group relative block overflow-hidden">
-                <PlaceholderImage
-                  label={cat.imageLabel}
-                  ratio="4 / 5"
-                  className="transition-transform duration-500 group-hover:scale-105"
+               <img
+  src={cat.image}
+  alt={cat.title}
+  className="w-full aspect-[4/5] object-cover transition-transform duration-500 group-hover:scale-105"
+/>
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-6 text-white">
