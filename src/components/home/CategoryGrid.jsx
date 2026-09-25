@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Container from '../ui/Container.jsx';
 import SectionHeading from '../ui/SectionHeading.jsx';
-import PlaceholderImage from '../ui/PlaceholderImage.jsx';
+
 import Reveal from '../ui/Reveal.jsx';
 import { categories } from '../../data/homepage.js';
 
